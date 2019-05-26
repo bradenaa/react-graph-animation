@@ -1,0 +1,33 @@
+.App {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.left-table {
+  width: 20vw;
+}
+
+.Graph-Container {
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  margin: 20px;
+}
+
+.Slider-Container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#svg-slider {
+  margin: 18px 0 0 0;
+}
+
+#play-button {
+  width: 100px;
+  margin: 10px 40px 0 0;
+}
